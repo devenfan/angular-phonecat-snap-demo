@@ -1,0 +1,17 @@
+<div snap-drawers>
+
+    <div snap-drawer>
+        I'm a left drawer!
+    </div>
+
+    <div snap-drawer="right">
+        Heads up! Only the attribute level directive can be on the right (right now)
+    </div>
+</div>
+
+<!-- without this attribute snap-options="snapOpts", the right drawer will show -->
+<div snap-content>
+    Main Content
+
+    <button snap-toggle>Toggle Drawer</button>
+</div>
